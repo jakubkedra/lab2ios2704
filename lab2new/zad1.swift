@@ -8,11 +8,36 @@
 import SwiftUI
 
 struct zad1: View {
+    
+    let content: String
+    @State var isFaceUp: Bool
+    
+    
+    let rectangle = RoundedRectangle(cornerRadius: 12)
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Group {
+                if isFaceUp {
+                    rectangle.fill(Color.white)
+                    rectangle.strokeBorder(style: StrokeStyle(lineWidth: 2))
+                    
+                    Text(content)
+                        .font(.largeTitle)
+                }
+            }
+            .opacity(isFaceUp ? 1 : 0)
+            
+            
+            rectangle.fill(Color.blue).opacity(isFaceUp ? 0 : 1)
+        }
+        .onTapGesture {
+            
+            isFaceUp.toggle()
+        }
     }
 }
 
 #Preview {
-    zad1()
+    zad1(content: "🍎", isFaceUp: true)
 }
