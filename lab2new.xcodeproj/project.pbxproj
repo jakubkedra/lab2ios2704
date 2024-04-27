@@ -18,6 +18,10 @@
 		3F5C5F0B2BDCD86B0088A47E /* zad2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F0A2BDCD86B0088A47E /* zad2.swift */; };
 		3F5C5F0D2BDCDA460088A47E /* zad3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F0C2BDCDA460088A47E /* zad3.swift */; };
 		3F5C5F0F2BDCDE3E0088A47E /* zad4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F0E2BDCDE3E0088A47E /* zad4.swift */; };
+		3F5C5F132BDCE4660088A47E /* memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F122BDCE4660088A47E /* memo.swift */; };
+		3F5C5F152BDCE4BB0088A47E /* memoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F142BDCE4BB0088A47E /* memoCardView.swift */; };
+		3F5C5F172BDCE5220088A47E /* memoThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F162BDCE5220088A47E /* memoThemePicker.swift */; };
+		3F5C5F192BDCE5540088A47E /* ThemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C5F182BDCE5540088A47E /* ThemeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		3F5C5F0A2BDCD86B0088A47E /* zad2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zad2.swift; sourceTree = "<group>"; };
 		3F5C5F0C2BDCDA460088A47E /* zad3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zad3.swift; sourceTree = "<group>"; };
 		3F5C5F0E2BDCDE3E0088A47E /* zad4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zad4.swift; sourceTree = "<group>"; };
+		3F5C5F122BDCE4660088A47E /* memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memo.swift; sourceTree = "<group>"; };
+		3F5C5F142BDCE4BB0088A47E /* memoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoCardView.swift; sourceTree = "<group>"; };
+		3F5C5F162BDCE5220088A47E /* memoThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoThemePicker.swift; sourceTree = "<group>"; };
+		3F5C5F182BDCE5540088A47E /* ThemeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,10 @@
 				3F5C5F0A2BDCD86B0088A47E /* zad2.swift */,
 				3F5C5F0C2BDCDA460088A47E /* zad3.swift */,
 				3F5C5F0E2BDCDE3E0088A47E /* zad4.swift */,
+				3F5C5F122BDCE4660088A47E /* memo.swift */,
+				3F5C5F142BDCE4BB0088A47E /* memoCardView.swift */,
+				3F5C5F162BDCE5220088A47E /* memoThemePicker.swift */,
+				3F5C5F182BDCE5540088A47E /* ThemeButton.swift */,
 			);
 			path = lab2new;
 			sourceTree = "<group>";
@@ -269,12 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5C5F152BDCE4BB0088A47E /* memoCardView.swift in Sources */,
 				3F5C5F0F2BDCDE3E0088A47E /* zad4.swift in Sources */,
 				3F5C5F092BDCD4B50088A47E /* zad1.swift in Sources */,
+				3F5C5F172BDCE5220088A47E /* memoThemePicker.swift in Sources */,
 				3F5C5EE12BDCD4800088A47E /* ContentView.swift in Sources */,
+				3F5C5F132BDCE4660088A47E /* memo.swift in Sources */,
 				3F5C5F0B2BDCD86B0088A47E /* zad2.swift in Sources */,
 				3F5C5F0D2BDCDA460088A47E /* zad3.swift in Sources */,
 				3F5C5EDF2BDCD4800088A47E /* lab2newApp.swift in Sources */,
+				3F5C5F192BDCE5540088A47E /* ThemeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
